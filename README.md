@@ -3,10 +3,10 @@
 <img src="https://raw.githubusercontent.com/Malika01/hacktoberfest-readme/master/Final.png">
 </p>
 
-<h2 align="center"> PROJECT TITLE </h2>
+<h2 align="center"> CYBERSEC SHENANIGANS  </h2>
 
 <p align="center"> 
-Short description about the project.
+A repo to host all things cybersec!
 </p>
 
 <p>
@@ -73,5 +73,5 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
+**Authors:**  [Aathira S](https://github.com/Aathira-S), [Saharsh Bhansali](https://github.com/saharshbhansali) .. -->  
 **Contributors:** <!-- Generate contributors list using this link - https://contributors-img.web.app/preview -->
