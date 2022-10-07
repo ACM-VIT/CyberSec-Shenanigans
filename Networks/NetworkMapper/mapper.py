@@ -1,6 +1,18 @@
 from socket import *
 import time
 
+def serviceMapper():
+    pass
+
+def osInfo():
+    pass
+
+def vulnScanner():
+    pass
+
+def spoofDevice():
+    pass
+
 def portScan():
    startTime = time.time()
 
