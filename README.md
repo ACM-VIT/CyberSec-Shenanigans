@@ -1,6 +1,6 @@
 <h1 align="center"><a href="https://organize.mlh.io/participants/events/4390-kickstarting-hacktoberfest-with-acm-vit">Kicking Off Hacktoberfest with ACM-VIT!</a></h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/Malika01/hacktoberfest-readme/master/Final.png">
+<img src="https://user-images.githubusercontent.com/67265786/194695103-47903f06-20aa-450f-af56-78b9cc860d6f.png">
 </p>
 
 <h2 align="center"> CYBERSEC SHENANIGANS  </h2>
@@ -52,12 +52,54 @@ A repo to host all things cybersec!
 
 ---
 
--_domain specific guidelines here_-
+<!--_domain specific guidelines here_-->
   
 ---
 ## Overview
 
-The overview starts here. Random text about the project, motive, how, what, why etc.
+This project is intended to introduce people to basic implementations of ciphers and encryption schemes used throughout history. By creating small scale implementations, we hope that people will learn the working of these algorithms and understand the math and computer science behind them. 
+
+We have used the Python programming language as it is beginner friendly and can be easily picked up by first timers.
+
+The collection of schemes we have are:
+* Historical Ciphers
+  - Ceaser Cipher
+  - Hill Cipher
+  - Vigenere Cipher
+  - Skip Cipher
+  - Playfair Cipher
+  - Book Cipher
+  - Rail Fence Cipher
+  - One time pad
+
+* Symmetric Ciphers
+  - DES
+  - AES
+  - blowfish
+  - twofish
+
+* PRNGS and stream ciphers
+  - RC4
+  - salsa20 and chacha
+  - Linear Feedback shift registers
+
+* Asymmetric Ciphers
+  - RSA
+  - ElGamal
+
+* Digital Signatures
+  - ECDSA
+  - RSADSA
+
+* Hashing Algorithms
+  - SHA (0, 1, 2, 3)
+  - MD5 
+
+We also have a slightly harder cybersecurity application based folder in this project, which is for people with intermediate and advanced skill levels
+
+The projects include:
+- An NMap clone written in Python
+- A Burp Intruder clone written in Python
 
 ---
 ## Usage
