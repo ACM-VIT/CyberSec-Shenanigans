@@ -1,6 +1,7 @@
 from pycurl import *
 from socket import *
 from scapy import *
+from http import *
 
 def basicIntruder():
     pass
