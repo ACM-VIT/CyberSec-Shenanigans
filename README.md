@@ -52,12 +52,54 @@ A repo to host all things cybersec!
 
 ---
 
--_domain specific guidelines here_-
+<!--_domain specific guidelines here_-->
   
 ---
 ## Overview
 
-The overview starts here. Random text about the project, motive, how, what, why etc.
+This project is intended to introduce people to basic implementations of ciphers and encryption schemes used throughout history. By creating small scale implementations, we hope that people will learn the working of these algorithms and understand the math and computer science behind them. 
+
+We have used the Python programming language as it is beginner friendly and can be easily picked up by first timers.
+
+The collection of schemes we have are:
+* Historical Ciphers
+  - Ceaser Cipher
+  - Hill Cipher
+  - Vigenere Cipher
+  - Skip Cipher
+  - Playfair Cipher
+  - Book Cipher
+  - Rail Fence Cipher
+  - One time pad
+
+* Symmetric Ciphers
+  - DES
+  - AES
+  - blowfish
+  - twofish
+
+* PRNGS and stream ciphers
+  - RC4
+  - salsa20 and chacha
+  - Linear Feedback shift registers
+
+* Asymmetric Ciphers
+  - RSA
+  - ElGamal
+
+* Digital Signatures
+  - ECDSA
+  - RSADSA
+
+* Hashing Algorithms
+  - SHA (0, 1, 2, 3)
+  - MD5 
+
+We also have a slightly harder cybersecurity application based folder in this project, which is for people with intermediate and advanced skill levels
+
+The projects include:
+- An NMap clone written in Python
+- A Burp Intruder clone written in Python
 
 ---
 ## Usage
