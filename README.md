@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://organize.mlh.io/participants/events/4390-kickstarting-hacktoberfest-with-acm-vit">Kicking Off Hacktoberfest with ACM-VIT!</a></h1>
+<h1 align="center>Kicking Off Hacktoberfest with ACM-VIT!</h1>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/67265786/194695103-47903f06-20aa-450f-af56-78b9cc860d6f.png">
 </p>
@@ -9,7 +9,7 @@
 A repo to host all things cybersec!
 </p>
 
-<p>
+<p align="center">
   <a href="https://acmvit.in/" target="_blank">
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
   </a>
