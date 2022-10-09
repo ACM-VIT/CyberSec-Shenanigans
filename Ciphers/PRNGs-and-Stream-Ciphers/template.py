@@ -1,5 +1,8 @@
 '''
 Wiki page - for reference and algo
+Stream cipher - https://en.wikipedia.org/wiki/Stream_cipher
+RC4 - https://en.wikipedia.org/wiki/RC4
+Salsa20 and ChaCha - https://en.wikipedia.org/wiki/Salsa20
 '''
 
 def key_generation():

@@ -1,5 +1,9 @@
 '''
 Wiki page - for reference and algo
+AES - https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+DES - https://en.wikipedia.org/wiki/Data_Encryption_Standard
+blowfish - https://en.wikipedia.org/wiki/Blowfish_(cipher)
+twofish - https://en.wikipedia.org/wiki/Twofish
 '''
 
 def key_generation():

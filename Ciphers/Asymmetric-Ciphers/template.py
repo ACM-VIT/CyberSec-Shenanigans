@@ -1,5 +1,7 @@
 '''
 Wiki page - for reference and algo
+RSA - https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+ElGamal - https://en.wikipedia.org/wiki/ElGamal_encryption
 '''
 
 def key_generation():

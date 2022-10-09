@@ -1,5 +1,7 @@
 '''
 Wiki page - for reference and algo
+MD5 - https://en.wikipedia.org/wiki/MD5
+https://en.wikipedia.org/wiki/Secure_Hash_Algorithms
 '''
 
 def key_generation():

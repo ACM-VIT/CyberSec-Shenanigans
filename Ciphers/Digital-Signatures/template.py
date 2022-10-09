@@ -1,5 +1,7 @@
 '''
 Wiki page - for reference and algo
+ECDSA - https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm
+RSADSA - https://www.geeksforgeeks.org/rsa-and-digital-signatures/
 '''
 
 def key_generation():
