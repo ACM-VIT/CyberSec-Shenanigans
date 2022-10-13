@@ -67,8 +67,6 @@ P = long int(input("Enter P: "))
 Q = long int(input("Enter Q: "))
 e = long int(input("Enter e: "))
 '''
-## n = int(input("Enter block size: "))
-## plaintext = input("Enter plaintext:\n>>> ")
 
 # 1024 bit key
 P = 170007611163882156467583070449223838584656753148867131633512190380283049593667937234054209916788376143894984910718820080485130228317492395177494053588704733242066260215738749826985323020318900966858054745093276666701971181051299894745771442097807356197274229456637808451705389506462483315002459525647
@@ -79,8 +77,6 @@ N   = P * Q
 phi = (P-1) * (Q-1)
 
 d = ExtendedGCD(e)
-## ciphertext = encrypt(plaintext, [e,N], n)
-## message = decrypt(ciphertext, [d,N])
 
 print("RSA Components")
 print("P: ", P)
@@ -89,15 +85,11 @@ print("N: ", N)
 print("phi: ", phi)
 print("e: ", e)
 print("d: ", d)
-## print("n: ", n)
 print()
-## print("Ciphertext:", ciphertext)
-print()
-## print("Message: ", message)
-
 
 # Enter the message to be sent
-M = 19070
+# The textual version of the verification message can be used with: S = encrypt(M, d, N) and M1 = decrypt(S, e, N)
+M = int(input("Enter the verification message (integer) to be sent to Bob:\n> "))
  
 # Signature is created by Alice
 S = pow(M,d,N) ## (M**d) % n
@@ -105,7 +97,7 @@ S = pow(M,d,N) ## (M**d) % n
 # Alice sends M and S both to Bob
 # Bob generates message M1 using the
 # signature S, Alice's public key e
-# and product n.
+# and product N.
 M1 = pow(S,e,N) ## (S**e) % n
  
 # If M = M1 only then Bob accepts
@@ -114,4 +106,4 @@ M1 = pow(S,e,N) ## (S**e) % n
 if M == M1:
     print("As M = M1, The Signature is valid.")
 else:
-    print("As M not equal to M1, The signature is invalid.")
+    print("As M != M1, The signature is invalid.")
